@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -21,6 +22,23 @@ function App() {
       </header>
     </div>
   );
+=======
+import React, {Component} from 'react'
+import Layout from './hoc/Layout/Layout'
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
+
+class App extends Component {
+  render() {
+    return(
+      <div >
+        <Layout>
+          <BurgerBuilder/>
+        </Layout>
+      </div>
+    )
+  }
+  
+>>>>>>> a9b7f1925a27699efbd4f5c0253557260a6a6e0e
 }
 
 export default App;
